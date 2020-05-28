@@ -1,0 +1,22 @@
+Different ways to fill missing values in dataframe
+
+# Drop the columns where all elements are missing values:
+df.dropna(axis=1, how='all')
+
+# Drop the columns where any of the elements are missing values
+df.dropna(axis=1, how='any')
+
+# Keep only the rows which contain 2 missing values maximum
+df.dropna(thresh=2)
+
+# Drop the columns where any of the elements are missing values
+df.dropna(axis=1, how='any')
+
+# Fill all missing values with the mean of the particular column
+df.fillna(df.mean())
+
+# Fill any missing value in column 'A' with the column median
+df['A'].fillna(df['A'].median())
+
+# Fill any missing value in column 'Depeche' with the column mode
+df['Depeche'].fillna(df['Depeche'].mode())
