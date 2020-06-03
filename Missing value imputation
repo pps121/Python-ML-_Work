@@ -1,4 +1,3 @@
-Different ways to fill missing values in dataframe
 
 # Drop the columns where all elements are missing values:
 df.dropna(axis=1, how='all')
