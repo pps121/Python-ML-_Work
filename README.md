@@ -1,2 +1,2 @@
 # Python-ML-Work
-Day-to-day work and findings on interesting things
+Day-to-day work and findings on interesting items in Machine learning
