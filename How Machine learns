@@ -8,6 +8,5 @@
 - maximize log-likelihood or minimize cross-entropy loss (or cost) function
 - minimize hinge loss (support vector machine)
 
-
 >> Current Deep learning supports several layer types (fully connected, convolutional, max-pooling, softmax which is generelized version of sigmoid).
 >> There are many activation functions (sigmoid, tanh, and rectified linear units or ReLU).
